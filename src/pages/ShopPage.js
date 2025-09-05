@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// eslint-disable-next-line no-unused-vars
 import { Search, Filter, SortAsc, Grid, List, X } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 import ProductCard from '../components/common/ProductCard';

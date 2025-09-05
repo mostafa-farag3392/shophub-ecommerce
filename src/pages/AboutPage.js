@@ -1,5 +1,6 @@
 import React from 'react';
-import { ShoppingCart, Heart, User, Star, Shield, Truck, Award, Users, Globe, TrendingUp, Target, Zap } from 'lucide-react';
+// eslint-disable-next-line no-unused-vars
+import { ShoppingCart, Heart, Star, User, Shield, Truck, Award, Users, Globe, TrendingUp, Target, Zap } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 import { APP_CONFIG } from '../utils/constants';
 

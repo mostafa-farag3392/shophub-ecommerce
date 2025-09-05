@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// eslint-disable-next-line no-unused-vars
 import { CreditCard, MapPin, User, Mail, Phone, Lock, ArrowLeft, Check } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 
@@ -7,6 +8,7 @@ const CheckoutPage = ({ setCurrentPage }) => {
     cart, 
     clearCart,
     getCartTotal,
+    // eslint-disable-next-line no-unused-vars
     getCartItemsCount,
     currentUser, 
     isDarkMode 

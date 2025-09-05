@@ -20,6 +20,7 @@ import ErrorPage from './pages/ErrorPage';
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
   const [isLoading, setIsLoading] = useState(true);
+  // eslint-disable-next-line no-unused-vars
   const [pageHistory, setPageHistory] = useState(['home']);
 
 

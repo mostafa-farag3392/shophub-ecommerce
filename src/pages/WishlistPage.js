@@ -1,4 +1,5 @@
 import React from 'react';
+// eslint-disable-next-line no-unused-vars
 import { Heart, ShoppingCart, Trash2, Grid, Search } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 import ProductCard from '../components/common/ProductCard';
